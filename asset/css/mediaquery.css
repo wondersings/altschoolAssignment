@@ -1,0 +1,77 @@
+
+  
+
+  @media only screen and (max-width: 1024px) {
+    html {
+      font-size: 12px;
+    }
+    /* Styles for tablets and phones */
+    /* body{background-color: blue} */
+    nav{display: none;}
+    .buttons-container{display: none;}
+    .nav__toggler{
+      display: block;
+    }
+    .Frame{
+      aspect-ratio: 3;
+    }
+    .hero{
+    margin-bottom: 200px;
+    
+    margin-inline: 20px;
+    }
+    .possibilities-con{
+    margin-inline: 20px;
+
+    }
+    .Why-choose-con {
+      padding: 20px;
+    }
+    .price-cards{
+      flex-direction: column;
+     }
+    .price-cards div:first-child {
+      transform: translateX(0px);
+    }
+    .price-cards div:last-child{
+      transform: translateX(0px);
+    }
+    
+  }
+  
+  @media only screen and (min-width: 1040px) {
+    /* Styles for laptops/desktops */
+    /* body{background-color: green} */
+    nav{display: block;}
+    .buttons-container{display:block;}
+  }
+  @media only screen and (max-width: 824px) {
+    /* body{background-color: gold} */
+    .Why-choose-con{
+          flex-direction: column;
+    }
+    .Why-choose-con-text-text{
+        margin: auto;
+    }
+    .possibilities-con {
+      flex-direction: column;
+  }
+  .fill{
+    padding: 20px;
+  }
+  .card{
+    padding: 20px;
+  }
+
+    .hero-img_bg {
+      width: 124px;
+  }  }
+    /* html{
+      background-color: blueviolet;
+    }
+    } */
+
+    /* *{
+      outline: 2px black solid;
+
+    } */
